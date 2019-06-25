@@ -1,5 +1,4 @@
 package main;
-import java.util.ArrayList;
 
 public class Book {
 
@@ -8,7 +7,6 @@ public class Book {
     private String description = "";
     private int price = 0;
     private boolean isInStock = false;
-    private int total = 0;
 
 
     //default constructor
