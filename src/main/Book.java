@@ -1,4 +1,5 @@
 package main;
+import java.util.ArrayList;
 
 public class Book {
 
@@ -7,6 +8,8 @@ public class Book {
     private String description = "";
     private int price = 0;
     private boolean isInStock = false;
+    private int total = 0;
+
 
     //default constructor
 
@@ -17,13 +20,14 @@ public class Book {
         this.description = description;
         this.price = price;
         this.isInStock = isInStock;
+
     }
 
     public void setTitle(String title){
         this.title = title;
     }
 
-    public String getString(){
+    public String getTitle(){
         return this.title;
     }
 
