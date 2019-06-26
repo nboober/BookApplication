@@ -44,11 +44,14 @@ public class BookApp {
             for(int i = 0; i < number; i++){
                 total += books.get(i);
             }
-            System.out.println(total);
+            System.out.println("That'll be $" + total);
         }else{
-            System.out.println("Your choice is too large try again");
+            System.out.println("Your choice is too large there are not enough books. Try again");
         }
 
+
+    }
+    public static void checkout(int number){
 
     }
 
